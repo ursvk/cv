@@ -64,9 +64,19 @@ a:hover {
 
 
 form {
+    text-align: center;
+    align-items: center;
     color: #E6DDC4;
 }
-
+ fieldset{
+    border-style: dotted;
+    border-width: 4px;
+    align-items: center;
+    border-color:grey;
+    border-radius: 20px;
+    height:auto;
+    
+ }
 
 input {
     font-size: 110%;
