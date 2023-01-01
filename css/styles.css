@@ -3,12 +3,14 @@ body {
 
     font-family: "Roboto";
 }
+
 @font-face {
-    font-family : 'Roboto';
-    font-style : normal;
-    font-weight : 400;
-    src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
-    }
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
 hr {
     border-style: inset none none;
     border-color: #F0E9D2;
@@ -30,6 +32,7 @@ h3 {
 h4 {
     color: #E6DDC4;
 }
+
 p {
     color: #E6DDC4;
 }
@@ -42,6 +45,7 @@ strong {
 address {
     color: #E6DDC4;
 }
+
 table {
     color: #E6DDC4;
 }
@@ -73,15 +77,16 @@ form {
     align-items: center;
     color: #E6DDC4;
 }
- fieldset{
+
+fieldset {
     border-style: dotted;
     border-width: 4px;
     align-items: center;
-    border-color:grey;
+    border-color: grey;
     border-radius: 20px;
-    height:auto;
-    
- }
+    height: auto;
+
+}
 
 input {
     font-size: 110%;
@@ -111,9 +116,20 @@ textarea {
     transition: 0.5s;
     outline: none;
 }
+
 footer.footer {
     height: 60px;
     width: 100%;
+}
+span {
+    color: #E6DDC4;
+   
+}
+
+a:hover{
+    color: #7c7c7c;
+    
+   
 }
 
 p.copyright {
