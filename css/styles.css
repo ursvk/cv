@@ -3,7 +3,12 @@ body {
 
     font-family: "Roboto";
 }
-
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 400;
+    src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+    }
 hr {
     border-style: inset none none;
     border-color: #F0E9D2;
